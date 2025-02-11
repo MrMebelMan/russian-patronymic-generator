@@ -1,0 +1,32 @@
+No Ruzzians License (NRL) v1.0
+
+PREAMBLE
+This software is provided as-is, with the intent to be used by those who respect international law and fundamental human rights. If you support, justify, or participate in Russia’s invasion of Ukraine — fuck off and delete this software immediately.
+TERMS AND CONDITIONS
+
+    No Use by Supporters of Ruzzian Aggression
+    This software may not be used, copied, modified, distributed, or sublicensed by any individuals or organizations that:
+        Support, justify, or spread propaganda for Russia's invasion of Ukraine.
+        Are sanctioned for war crimes or aiding Russia's military efforts.
+        Are Ruzzian state institutions, companies, or entities operating under Ruzzian government control.
+        Are individuals in Russia who have not publicly condemned the invasion.
+
+    If this describes you, fuck off.
+
+    No Use by Ruzzian Government or Affiliates
+        The Ruzzian government, its agencies, military, and any affiliates are explicitly banned from using this software in any capacity.
+        Any Ruzzian company, developer, or entity supporting the war is also banned.
+        If you provide financial, technological, or logistical support to the Ruzzian war effort — go fuck yourself.
+
+    Enforcement & Compliance
+        By using this software, you confirm that you do not fall under any of the restricted categories.
+        If you’re found violating these terms, your rights to use this software are revoked permanently.
+        If you think you can ignore this and still use the software, fuck you.
+
+    Moral & Ethical Stance
+        This license exists as a form of digital resistance against war crimes and human rights violations.
+        If you support Russia’s actions in Ukraine, shove your excuses up your ass and get lost.
+
+NO WARRANTY
+
+This software is provided “as-is” without warranty of any kind. If it breaks, you get to keep the pieces. If you don’t like it, cry me a river.
