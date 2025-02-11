@@ -1,7 +1,7 @@
 # Russian Patronymic Generator
-A Python tool that generates male and female Russian patronymics from father's first name using linguistic rules.
+A Python tool that generates male and female russian patronymics from father's first name using linguistic rules.
 
-If you're a Russian national and want to use this software, better go check the [LICENSE](LICENSE.txt) first.
+If you're a russian national and want to use this software, better go check the [LICENSE](LICENSE.txt) first.
 
 ## Usage
 
@@ -29,5 +29,4 @@ generate_patronymic("Савелий", "female") # Савельевна
 generate_patronymic("Bacилий", "male") # Bacильевич
 generate_patronymic("Bacилий", "female") # Bacильевна
 ```
-
 

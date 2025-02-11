@@ -48,7 +48,7 @@ def generate_patronymic(name: str, gender: str) -> str:
 
     # 10. Ends in unstressed ий → drop й, handle special cases
     if name.endswith("ий"):
-        if name.endswith("лий"):  # Савелий → Савельевич
+        if name.endswith("лий") or name.endswith("рий"):  # Савелий → Савельевич, Юрий - Юрьевна
             return name[:-2] + ("ьевич" if gender == "male" else "ьевна")
         if len(name) > 2 and name[-3] in "нт":  # Василий → Васильевич
             return name[:-2] + ("ьевич" if gender == "male" else "ьевна")
@@ -72,40 +72,4 @@ def generate_patronymic(name: str, gender: str) -> str:
 
     # Default fallback
     return name + ("ович" if gender == "male" else "овна")
-
-
-name = 'Пётр'
-print(f'print(generate_patronymic("{name}", "male")) # {generate_patronymic(name, "male")}')
-print(f'print(generate_patronymic("{name}", "female")) # {generate_patronymic(name, "female")}')
-print()
-
-name = 'Павел'
-print(f'print(generate_patronymic("{name}", "male")) # {generate_patronymic(name, "male")}')
-print(f'print(generate_patronymic("{name}", "female")) # {generate_patronymic(name, "female")}')
-print()
-
-name = 'Георгий'
-print(f'print(generate_patronymic("{name}", "male")) # {generate_patronymic(name, "male")}')
-print(f'print(generate_patronymic("{name}", "female")) # {generate_patronymic(name, "female")}')
-print()
-
-name = 'Валентин'
-print(f'print(generate_patronymic("{name}", "male")) # {generate_patronymic(name, "male")}')
-print(f'print(generate_patronymic("{name}", "female")) # {generate_patronymic(name, "female")}')
-print()
-
-name = 'Еремей'
-print(f'print(generate_patronymic("{name}", "male")) # {generate_patronymic(name, "male")}')
-print(f'print(generate_patronymic("{name}", "female")) # {generate_patronymic(name, "female")}')
-print()
-
-name = 'Савелий'
-print(f'print(generate_patronymic("{name}", "male")) # {generate_patronymic(name, "male")}')
-print(f'print(generate_patronymic("{name}", "female")) # {generate_patronymic(name, "female")}')
-print()
-
-name = 'Bacилий'
-print(f'print(generate_patronymic("{name}", "male")) # {generate_patronymic(name, "male")}')
-print(f'print(generate_patronymic("{name}", "female")) # {generate_patronymic(name, "female")}')
-print()
 
